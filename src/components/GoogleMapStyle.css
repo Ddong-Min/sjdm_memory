@@ -1,0 +1,59 @@
+.topBox {
+    position: absolute; /* 뷰포트를 기준으로 절대 위치 */
+    top: 40%;           /* 수직 중앙 */
+    left: 50%;          /* 수평 중앙 */
+    transform: translate(-50%, -50%); /* 정확히 중앙으로 이동 */
+    width: 85%;
+    height: 30%;
+}
+
+
+
+.markerBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 2px solid brown;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.smallLeftNav{
+    position: absolute;
+    background : rgba(160, 11, 36, 0.664);
+    top:50%;
+    left:0%;
+    transform: translateY(-50%); /* 수직 중앙 정렬 */
+    width : 15%;
+    height : 60%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}   
+
+.smallRightNav{
+    position: absolute;
+    background : rgba(160, 11, 36, 0.664);
+    top:50%;
+    left:85%;
+    transform: translateY(-50%); /* 수직 중앙 정렬 */
+    width : 15%;
+    height : 60%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}   
+
+.exitButton{
+    position : fixed;
+    top : 3%;
+    right : 3%;
+    background : black;
+    border-radius: 8px;
+    width : 20px;
+    height : 20px;
+}

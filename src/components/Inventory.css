@@ -1,0 +1,81 @@
+.InventoryButton{
+    z-index: 10;
+    position: absolute;
+    width: 5%;
+    height:5%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InventoryMain{
+    z-index: 10;
+    position:absolute;
+    width: 65%;
+    height : 100%;
+    background-color: rgb(192, 114, 127);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.Profile{
+    background-color: rgb(192, 114, 127);
+    position: relative;
+    width:100%;
+    height:27%;
+    border-bottom: 2px solid brown;
+    border-top-right-radius: 8px;
+}
+
+.Picture{
+    position: absolute;
+    top : 35%;
+    left : 50%;
+    width: 55%;
+    height:55%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+}
+
+.Nickname{
+    position:absolute;
+    top:60%;
+    left:50%;
+    width: 70%;
+    height:15%;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+.History{
+    background-color: rgb(134, 62, 73);
+    position : relative;
+    margin-top: 5%;
+    margin-left:3%;
+    width :84%;
+    height:7%;
+    border-radius: 10px;
+
+}
+
+.DetailHistory{
+    background-color: white;
+    position: absolute;
+    top: 50%;            
+    right: 7%;   
+    transform: translateY(-50%); 
+    width: 7%;
+    height: 25%;
+    z-index: 13;
+}
+
+.InventoryClose{
+    position: absolute;
+    top : 50%;
+    right : 5%;
+    transform :translateY(-50%);
+    width:10%;
+    height:5%;
+    z-index: 13;
+    background-color: aliceblue;
+}

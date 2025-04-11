@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.2.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
@@ -44,5 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://ddong-min.github.io/sjdm_memory/"
+  "homepage": "https://ddong-min.github.io/sjdm_memory/",
+  "devDependencies": {
+    "@types/google.maps": "^3.58.1"
+  }
 }
